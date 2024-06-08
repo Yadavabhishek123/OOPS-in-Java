@@ -4,7 +4,7 @@ interface Sports{
 
 class Cricket implements Sports{
 
-    @Override   // this keyword shows that there is a method that is intendid to override method declared into super class
+    @Override   // this keyword shows that there is a method that is intended to override method declared into super class
     public void play(){
         System.out.println("Playing Cricket");
     }
